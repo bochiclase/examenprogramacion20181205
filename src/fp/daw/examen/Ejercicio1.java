@@ -13,6 +13,19 @@ public class Ejercicio1 {
 	 * uso de variables booleanas.
 	 */
 	
+	String cadena= "a";
+	String vector [0] = "a";
+	String vector [1] = "b";
+	String vector [2] = "c";
+	
+	if (cadena == vector[0] || vector [1] || vector [2])
+		return true;
+	else
+		return false;
+	
+	
+			
+	
 	public static ...
 	
 	/*
@@ -24,7 +37,6 @@ public class Ejercicio1 {
 	
 	public static void main(String[] args) {
 		
-
 	}
 
 }

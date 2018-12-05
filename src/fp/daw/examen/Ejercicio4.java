@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio4 {
 
 	/* 
@@ -11,6 +13,12 @@ public class Ejercicio4 {
 	 * comprendidos entre 975 y 13579 y ordenados de menor a mayor a partir de la posición 0.
 	 * Finalmente retornará el array.
 	 */
+	
+	int aleatorio [5] [5];
+	Random aleator = new Random (13579);
+	for (int i=0; i<5; i++) {
+		
+	}
 	
 	public static ...
 	

@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 	/* 
@@ -23,7 +25,37 @@ public class Ejercicio5 {
 	 */
 	
 	public static void main(String[] args) {
+		 
+	int moneda1 = 1;
+	int moneda2 = 2;
+	int billete = 5;
+	int billete10 = 10;
+	int billete20 = 20;
+	int billete50 = 50;
+	int billete100 =100;
+	int billete200 =200;
+	int billete500 =500;
+	
+	
+	Scanner sc = new Scanner (System.in);
+	System.out.println("Introduce un valor a calcular");
+	int pant = sc.nextInt();
+	
+	if (pant == 0) {
+		do 
+		 System.out.println("Vuelva a introducir el valor a calcular");
+		 while (pant == 0)
 		
+		else {
+			
+			
+		}
+			
+			
+			
+			
+	
+	}
 
 	}
 
